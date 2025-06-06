@@ -8,6 +8,7 @@ library(Rtsne)
 library(e1071)        # for svm
 library(factoextra)   # for clustering visualization
 library(pheatmap)
+library(RColorBrewer)
 cat("Loading libraries - finished at", Sys.time(), "\n\n")
 
 # Load processed expression data
