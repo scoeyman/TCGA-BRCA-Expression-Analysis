@@ -33,22 +33,20 @@ Before running the scripts, install the required R packages by running: source("
 Usage
 ---------------
 Follow these steps in order. Set your working directory to the local path where this project is saved.
-Step 1: Download Data
-	Run 01_getting_data_tcga to download TCGA BRCA gene expression data. This will save the raw data as tcga_brca_data.RData.
-Step 2: Preprocess Data
-	Run 2_preprocess_expression_data.R to extract the gene expression matrix and attach subtype labels. This will save tcga_brca_expr_df.RData.
-Step 3: Analysis and Modeling
-	Run 3_analysis_modeling.R to:
-		Normalize expression data using DESeq2
-		Run PCA and t-SNE for visualization
-		Perform K-means clustering and compare to PAM50 subtypes
-		Train classification models (SVM, Random Forest, XGBoost)
-		Output plots and accuracy comparisons
+1. Run 01_getting_data_tcga to download TCGA BRCA gene expression data. This will save the raw data as tcga_brca_data.RData.
+2. Run 2_preprocess_expression_data.R to extract the gene expression matrix and attach subtype labels. This will save tcga_brca_expr_df.RData.
+3. Run 3_analysis_modeling.R to:
+- Normalize expression data using DESeq2
+- Run PCA and t-SNE for visualization
+- Perform K-means clustering and compare to PAM50 subtypes
+- Train classification models (SVM, Random Forest, XGBoost)
+- Output plots and accuracy comparisons
+
 Outputs include:
-PCA and t-SNE plots
-Clustering heatmap
-Model accuracy CSV
-Variable importance plots
+- PCA and t-SNE plots
+- Clustering heatmap
+- Model accuracy CSV
+- Variable importance plots
 
 
 Directory Structure
