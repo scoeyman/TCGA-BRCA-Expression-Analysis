@@ -49,30 +49,6 @@ Outputs include:
 - Variable importance plots
 
 
-Directory Structure
---------------------
-project_folder/
-│
-├── data/
-│   ├── tcga_brca_data.RData
-│   └── tcga_brca_expr_df.RData
-│
-├── 01_getting_data_tcga.R
-├── 2_preprocess_expression_data.R
-├── 3_analysis_modeling.R
-├── README.txt
-│
-├── pca_plot.png
-├── tsne_plot.png
-├── tsne_kmeans_clusters.png
-├── tsne_cluster_vs_subtype_heatmap.png
-├── svm_tuning_plot.png
-├── svm_variable_importance.png
-├── rf_variable_importance.png
-├── xgb_variable_importance.png
-├── model_accuracy_comparison.csv
-
-
 Notes
 ---------------
 Adjust the project_dir paths at the top of each script to match your local setup.
