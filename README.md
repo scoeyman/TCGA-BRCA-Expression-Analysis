@@ -27,11 +27,7 @@ Organized into three main R scripts:
 
 Prerequisites
 -------------
-Before running the scripts, install the required R packages by running:
-r
-Copy
-Edit
-source("requirements.R")
+Before running the scripts, install the required R packages by running: source("requirements.R")
 
 
 Usage
